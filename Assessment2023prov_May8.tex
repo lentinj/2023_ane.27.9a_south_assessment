@@ -1,0 +1,235 @@
+ \documentclass[review]{elsarticle}
+\usepackage[utf8]{inputenc}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\textwidth 6.75in
+\oddsidemargin -0.15in
+\evensidemargin -0.15in
+\textheight 9in
+\topmargin -0.5in
+\usepackage{hyperref}%lineno,
+%\modulolinenumbers[1]
+\usepackage{amssymb,amsmath}
+\renewcommand*{\appendixname}{}
+%\include{../bootstrap/initial/software/Latex}
+%\journal{Fisheries research}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+%\bibliographystyle{natbib}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{Sweave}
+\begin{document}
+\input{Assessment2023prov_May8-concordance}
+
+\begin{frontmatter}
+
+\title{Gadget for anchovy 9a South: Model description and results to provide catch advice and reference points (WGHANSA-1 2023)}
+%%\tnotetext[mytitlenote]{Fully documented templates are available in the elsarticle package on \href{http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle}{CTAN}.}
+
+%% Group authors per affiliation:
+\author[a]{Margarita Mar{\'i}a Rinc{\'o}n\corref{cor1}}
+\ead{margarita.rincon@ieo.csic.es}
+%\address[a]{Department of Coastal Ecology and Management, Instituto de Ciencias Marinas de Andaluc{\'i}a, Consejo Superior de Investigaciones Cient{\'i}ficas, Avda Rep{\'u}blica Saharaui 2, 11519 Puerto Real, C{\'a}diz, Spain}
+\address[a]{Instituto Español de Oceanograf{\'i}a (IEO-CSIC), Centro Oceanográfico de Cádiz, Puerto
+pesquero, Muelle de Levante s/n, Apdo. 2609, 11006 Cádiz, Spain}
+ \cortext[cor1]{Corresponding author}
+ 
+
+\author[a]{Fernando Ramos}
+
+\author[a]{Jorge Tornero}  
+
+\author[b]{Susana Garrido}
+
+\address[b]{Instituto Portugues do Mar e da Atmosfera-IPMA, Av. Brasília, 6, 1449-006 Lisboa, Portugal}
+
+\author[c]{Bjarki Elvarsson}
+
+\address[c]{Marine and Freshwater Research Institute, Fornubúdum 5
+220 Hafnarfjördur, Iceland}
+
+\author[c]{Jamie Lentin}
+
+%\address[d]{Shuttlethread}
+
+%\begin{abstract}
+%This template helps you to create a properly formatted \LaTeX\ manuscript.
+%\end{abstract}
+
+%\begin{keyword}
+%\texttt{elsarticle.cls}\sep \LaTeX\sep Elsevier \sep template
+%\MSC[2010] 00-01\sep  99-00
+%\end{keyword}
+
+\end{frontmatter}
+
+%\linenumbers
+
+\section{Background}
+
+The model specifications presented below correspond to those benchmarked in WKPELA 2018. The main difference is that results are presented now for the end of the second quarter of each year instead of be presented at the end of the fourth quarter. This responds to practical modifications in the definition of the assessment year, now it goes from July 1st to June 30th of the next year. Specific model assumptions for this year are presented in section \ref{obser} and \ref{Remark}, as well as estimated parameters after optimization in Table \ref{Symbols}.
+
+
+\section{Model Description}
+
+
+
+
+%A Gadget model works making forward simulations and minimizing an objective (negative weighted log-likelihood) function that measures the difference between the model and data, the discrepancy is presented as a likelihood score for each time period and model component. Gadget structure and options are described in \citet{begley_overview_2004}.
+
+
+
+%ThereAs mentioned before last years represent a stable period for the fishery in terms of anthropogenic and environmental forces. 
+ %There is a change in catches selectivity pattern in year 2001sFrom catches length distribution time series selectivity pattern changes.
+ 
+ 
+ Gadget is an age-length-structured model that integrates different sources of information in order to produce a diagnose of the stock dynamics.  It works making forward simulations and minimizing an objective (negative log-likelihood) function that measures the difference between the model and data, the discrepancy is presented as a likelihood score for each time period and model component.% Gadget structure and options are described in \citet{begley_overview_2004}.
+ 
+ 
+ 
+ % that implements forward simulations while minimizing an objective function (negative log-likelihood) that measures the diﬀerence between the model and data. Discrepancies between model and data are presented as a likelihood score for each time period and model component. %Gadget structure and options are described in detail at \citet{begley_overview_2004}.
+
+ 
+ The general Gadget model description and all the options available can be found in Gadget manual \citep{begley_gadget_2004} and some specific examples can be found in \citet{taylor_simple_2007}, \citet{elvarsson_bootstrap_2014} and WKICEMSE assessment for Ling (Elvarsson, 2017).  The latest was used as a guide for this document.
+ 
+ The Gadget model implementation consists in three parts, a simulation of biological dynamics of the population (simulation model), a fitting of the model to observed data using a weighted log-likelihood function (observation model) and the optimization of the parameters using different iterative algorithms.   
+
+%The simple models chosen are part of a summary of data-limited methods described in \textbf{DLMtool manual} and there is an interactive way to use them available at \url{http://www.datalimitedtoolkit.org/}
+
+A list of the symbols used and estimated parameters is presented in  Table \ref{Symbols} and a graph with the Gadget model structure presented in the last benchmark (WKPELA 2018) is available at \href{http://prezi.com/j8rinhq5kstg/?utm_campaign=share&utm_medium=copy}{Gadget structure graph}.
+
+
+
+
+
+ 
+ % Gadget is a tool that integrates different sources of information in order to produce a diagnose of the stock dynamics. Gadget is an age-length-structured model that implements forward simulations while minimizing an objective function (negative log-likelihood) that measures the diﬀerence between the model and data. Discrepancies between model and data are presented as a likelihood score for each time period and model component. Gadget structure and options are described in detail at \citet{begley_overview_2004}.
+
+
+
+
+ 
+ 
+
+
+
+
+
+ 
+ 
+ 
+ 
+%  \begin{equation}
+% \label{eq:inlen}
+% \Delta l =(l_\infty - l)(1-e^{k\Delta t}),
+% \end{equation}
+% 
+% where $\Delta t$ is the length of the timestep, $l_\infty$ is the terminal length and $k$ is the growth rate parameter.
+% 
+% The corresponding increase in weight of the stock is given by:
+% 
+% \begin{equation}
+% \label{eq:inwei}
+% \Delta w=a ((l + \Delta l)^b - l^b),
+% \end{equation}
+
+% \subsection{Simulation model}
+% %\end{itemize}
+% 
+% The model consists of one stock component of anchovy (\textit{Engraulis encrasicolus}) in the ICES subdivision, IX.a South-Atlantic Iberian waters, Gulf of Cádiz. Gadget works by keeping track of the number of individuals, $N_{a,l,y,t},$ at ages $a = 0, \dots,3$, at lengths $l = 3,3.5,4,4.5, \dots,22$, at years $y=1989,\dots,2015$, and each year divided into quarters $t =1, \dots, 4.$. The last time step of a year involves increasing the age by one year, except for the last age group, which its age remains unchanged and the age group next to is added to it, like a 'plus group' including all ages from the oldest age onwards \citep{taylor_simple_2007}.
+
+
+
+% specific region defined by $ r $ = IXa (Division 9.a South-Atlantic Iberian waters, Gulf of Cádiz). Gadget works by keeping track of the number of individual and mean weight at age $ a$ = 0.3, at reference weight  , at length $l$ = 3.22 with a step size$ dl $= 0.5 between each length group, with a specified timestep$ t $= 4 for each year ($y$) from 1988 to 2015. The length of the timestep is denoted by $\Delta t$.
+
+% \subsubsection*{Growth}
+%  
+%  
+% Growth in terms of length and weight were formulated as $\Delta l =(l_\infty - l)(1-e^{k\Delta t})$ and $\Delta w=a ((l + \Delta l)^b - l^b)$, respectively, where $\Delta t$ is the length of the timestep, $l_\infty$ assumed as fixed and equal to 19 $cm$ is the terminal length and $k$ is the growth rate parameter. Parameters  $l_{\infty}, a=2.9e^{-5}$ and $b=3.3438,$ were obtained for this stock by \citep{millan_reproductive_1999}. Natural mortality at age, $M_{0}=1.17$ and $M_{1}=0.43,$ was derived from anchovy mortality in the Alboran Sea \textbf{GFCM2009}. The values for $M_{2}$ and $M_{3}$ were chosen high enough to be consistent with catches at age data, where individuals older than two years are rarely found. Gadget integrates data and processes to produce a quarterly diagnose of recruits which is added to the smallest age group each quarter. Size restrictions to the fishery were incepted in 2000. As a consequence, selectivity paramenters are divided into two periods: 1998-2000 and 2001-2015.
+
+% Likelihood files were prepared for Gadget format using the \textit{mfdb} R package and, weighting of likelihood components and forecasting procedures were implemented in R with the gadget.iterative and gadget.forward function, respectively, from \textit{Rgadget} package. The gadget.iterative function follows the approach presented in \citet{taylor_simple_2007},  based on the iterative reweighting scheme of \citet{stefansson_comparing_1998,stefansson_issues_2003}. %It compares the results from a gadget run using the inverse 
+% This method runs Gadget several times to get a likelihood score of each likelihood component, in each iteration the weigth of a dataset is greatly increased while the others remain constant and equal to one.  The gadget.forward function performs a Gadget simulation, using the parameter values found after optimization. It was necessary to modify the original function to include different recruitment assumptions.
+
+% Weighting of likelihood components were done following the approach presented in \citet{taylor_simple_2007} and in the apppendix of \citet{elvarsson_bootstrap_2014} based on the iterative reweighting scheme of \citet{stefansson_comparing_1998} and \citet{stefansson_issues_2003}. %It compares the results from a gadget run using the inverse 
+%Forecasting was implemented  by using the parameter values found after minimizing the objective weighted function and assuming a constant effort equal to 0.85.% (negative weighted log-likelihood) function (negative weighted log-likelihood) function an optimization run 
+
+
+%in each iteration one dataset weight is greatly increased while the others remain constant and equal to one. 
+
+% Forecasting were implemented performing a Gadget simulation, using the parameter values found after optimization, while
+% weighting of likelihood components were done following the approach presented in \citet{taylor_simple_2007},  based on the iterative reweighting scheme of \citet{stefansson_comparing_1998,stefansson_issues_2003}. %It compares the results from a gadget run using the inverse 
+% This method runs Gadget several times to get a likelihood score of each likelihood component, in each iteration the weigth of a dataset is greatly increased while the others remain constant and equal to one. 
+
+% Input data, weighting and forecasting processes were implemented in R using the \textit{mfdb} R package and, gadget.iterative and gadget.forward function from \textit{Rgadget} package, respectively. Further details of model implementation and weighting of likelihood components are presented below
+
+
+
+% \subsubsection{Data}
+% 
+% The following information was extracted from ICES reports (public) and from IEO datasets (non public).  The following datasets are used in Gadget for likelihood components. Gadget classify this information as different types of components, time period and component are specified  in parenthesis:
+% \begin{itemize}
+%  \item Length distribution of landings (1998-2015, catchdistribution)
+% \item Age distribution of landings (1998-2015, catchdistribution)
+% \item Landings mean length at age of landings(1988-2015, catchstatistics)
+% \item Biomass survey indexes from ECOCADIZ survey. (Second quarter 2004, 2006; third quarter 2007, 2009, 2010, 2013 and 2014, surveyindexes)
+% \item Age and length distribution of survey ECOCADIZ (Second quarter 2004, 2006; third quarter 2007, 2009, 2010, 2013 and 2014, catchdistribution)
+% \item Biomass survey indexes from PELAGO survey. (First quarter 1999, 2001-2003, second quarter 2005-2010, 2014, surveyindexes)
+% \item Age and length distribution of survey PELAGO (First quarter 1999, 2001-2003, second quarter 2005-2010, 2014, catchdistribution)
+% \item Biomass survey indexes from SAR survey. (Last quarter 1998, 2000,2001, 2007 and 2012, surveyindexes)
+% \end{itemize}
+% 
+% Quaterly catches in numbers are used for the fleet information, which is assumed by Gadget as a predator.
+
+
+% \subsubsection{Assumptions}
+% \begin{itemize}
+% \item Some parameter values as $L_{\infty}=19$ and $a=2.9e^{-5}, b=3.3438,$ were extracted from data of the Gulf of Cádiz sistematically sampled during 4 years \citep{millan_reproductive_1999}. They were assumed fixed in the following equations accounting for growth in terms of length and weight, respectively:  
+% $L(t)=L_{\infty}(1-\exp^{tK})$ and $W(t)=aL(t)^b.$
+% 
+% \item Natural mortality at age was also considered fixed with $M_{0}=1.17$ and $M_{1}=0.43,$ using data from anchovy mortality in Alboran Sea \citep{GFCM2009}. The values for $M_{2}$ and $M_{3}$ were chosen higher enough to be coherent with catches at age data, where there is rarely to find individuals older than two years.  
+% 
+% \item A number (calculated by the model) of individuals considered as recruits, is added once each year to the smallest age group each quarter.
+% 
+% \item There was a size restriction from 1995, that were only effective until 2001. As a consequence it was neccesary to define different parameters for two different selectivity patterns. One from 1988 to 2000, and the other from 2001 to 2015. 
+% 
+% \end{itemize}
+% 
+% 
+% \subsubsection{Implementation and weighting procedure}
+% 
+% Likelihood files were prepared for Gadget format using the \textit{mfdb} R package and, running and weighting procedures were implemented in R with the gadget.iterative function from \textit{Rgadget} package. This function follows the approach presented in \citet{taylor_simple_2007},  based on the iterative reweighting scheme of \citet{stefansson_comparing_1998,stefansson_issues_2003}. %It compares the results from a gadget run using the inverse 
+% This method runs Gadget several times to get a likelihood score of each likelihood component, in each iteration the weigth of a dataset is greatly increased while the others remain constant and equal to one.
+
+
+
+ 
+

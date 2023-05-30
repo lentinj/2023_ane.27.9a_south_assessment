@@ -30,4 +30,4 @@ GithubRepo: rgadget
 GithubUsername: hafro
 GithubRef: 40ff4d6
 GithubSHA1: 40ff4d6c9472c366cb77d294506505687c90af77
-Built: R 3.6.3; ; 2023-05-30 08:43:02 UTC; unix
+Built: R 3.6.3; ; 2023-05-30 12:47:36 UTC; unix
