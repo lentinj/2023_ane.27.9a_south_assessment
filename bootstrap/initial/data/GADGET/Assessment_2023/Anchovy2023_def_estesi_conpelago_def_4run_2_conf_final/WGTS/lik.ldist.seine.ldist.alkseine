@@ -1,0 +1,191 @@
+; Gadget version 2.3.5 running on c203-38 Tue May 30 04:02:32 2023
+; Listing of the switches used in the current Gadget run
+Linf	anchgrowergrowthcalcHmodelvariable	
+kappa	anchgrowergrowthcalcHmodelvariable	
+alpha	anchgrowergrowthcalcHmodelvariable	
+beta	anchgrowergrowthcalcHmodelvariable	
+bbeta	anchgrower	
+init0	anchinitialcondmeandata	
+init1	anchinitialcondmeandata	
+init2	anchinitialcondmeandata	
+init3	anchinitialcondmeandata	
+rec79	anchrenewaldata	
+reclm	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+sdreclm	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+rec80	anchrenewaldata	
+rec81	anchrenewaldata	
+rec82	anchrenewaldata	
+rec83	anchrenewaldata	
+rec84	anchrenewaldata	
+rec85	anchrenewaldata	
+rec86	anchrenewaldata	
+rec87	anchrenewaldata	
+P388	anchrenewaldata	
+rec88	anchrenewaldata	anchrenewaldata	
+recl	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+sdrecl	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P389	anchrenewaldata	
+rec89	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P390	anchrenewaldata	
+rec90	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P391	anchrenewaldata	
+rec91	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P392	anchrenewaldata	
+rec92	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P393	anchrenewaldata	
+rec93	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P394	anchrenewaldata	
+rec94	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P395	anchrenewaldata	
+rec95	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P396	anchrenewaldata	
+rec96	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P397	anchrenewaldata	
+rec97	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P398	anchrenewaldata	
+rec98	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P399	anchrenewaldata	
+rec99	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P300	anchrenewaldata	
+rec00	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P301	anchrenewaldata	
+rec01	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P302	anchrenewaldata	
+rec02	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P303	anchrenewaldata	
+rec03	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P304	anchrenewaldata	
+rec04	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P305	anchrenewaldata	
+rec05	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P306	anchrenewaldata	
+rec06	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P307	anchrenewaldata	
+rec07	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P308	anchrenewaldata	
+rec08	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P309	anchrenewaldata	
+rec09	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P310	anchrenewaldata	
+rec10	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P311	anchrenewaldata	
+rec11	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P312	anchrenewaldata	
+rec12	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P313	anchrenewaldata	
+rec13	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P314	anchrenewaldata	
+rec14	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P488	anchrenewaldata	
+sdrecl4	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P489	anchrenewaldata	
+P490	anchrenewaldata	
+P491	anchrenewaldata	
+P492	anchrenewaldata	
+P493	anchrenewaldata	
+P494	anchrenewaldata	
+P495	anchrenewaldata	
+P496	anchrenewaldata	
+P497	anchrenewaldata	
+P498	anchrenewaldata	
+P499	anchrenewaldata	
+P400	anchrenewaldata	
+P401	anchrenewaldata	
+P402	anchrenewaldata	
+P403	anchrenewaldata	
+P404	anchrenewaldata	
+P405	anchrenewaldata	
+P406	anchrenewaldata	
+P407	anchrenewaldata	
+P408	anchrenewaldata	
+P409	anchrenewaldata	
+P410	anchrenewaldata	
+P411	anchrenewaldata	
+P412	anchrenewaldata	
+P413	anchrenewaldata	
+P414	anchrenewaldata	
+P315	anchrenewaldata	
+rec15	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P415	anchrenewaldata	
+P316	anchrenewaldata	
+rec16	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P416	anchrenewaldata	
+P288	anchrenewaldata	
+sdrecl2	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P289	anchrenewaldata	
+P290	anchrenewaldata	
+P291	anchrenewaldata	
+P292	anchrenewaldata	
+P293	anchrenewaldata	
+P294	anchrenewaldata	
+P295	anchrenewaldata	
+P296	anchrenewaldata	
+P297	anchrenewaldata	
+P298	anchrenewaldata	
+P299	anchrenewaldata	
+P200	anchrenewaldata	
+P201	anchrenewaldata	
+P202	anchrenewaldata	
+P203	anchrenewaldata	
+P204	anchrenewaldata	
+P205	anchrenewaldata	
+P206	anchrenewaldata	
+P207	anchrenewaldata	
+P208	anchrenewaldata	
+P209	anchrenewaldata	
+P210	anchrenewaldata	
+P211	anchrenewaldata	
+P212	anchrenewaldata	
+P213	anchrenewaldata	
+P214	anchrenewaldata	
+P215	anchrenewaldata	
+P216	anchrenewaldata	
+rec17	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P317	anchrenewaldata	
+P417	anchrenewaldata	
+P217	anchrenewaldata	
+rec18	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P318	anchrenewaldata	
+P418	anchrenewaldata	
+P218	anchrenewaldata	
+rec19	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P319	anchrenewaldata	
+P419	anchrenewaldata	
+P219	anchrenewaldata	
+rec20	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P320	anchrenewaldata	
+P420	anchrenewaldata	
+P220	anchrenewaldata	
+rec21	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P321	anchrenewaldata	
+P421	anchrenewaldata	
+P221	anchrenewaldata	
+rec22	anchrenewaldata	anchrenewaldata	anchrenewaldata	
+P322	anchrenewaldata	
+P422	anchrenewaldata	
+anchalpha88	fleetseinepredatorseinesuitabilityforanchmodelvariableanch	
+anchalpha01	fleetseinepredatorseinesuitabilityforanchmodelvariableanch	
+anchL5088	fleetseinepredatorseinesuitabilityforanchmodelvariableanch	
+anchL5001	fleetseinepredatorseinesuitabilityforanchmodelvariableanch	
+constanteco	fleetECOpredatorECOsuitabilityforanchmodelvariable	
+l50eco	fleetECOpredatorECOsuitabilityforanchmodelvariable	
+constantpel	fleetPELpredatorPELsuitabilityforanchmodelvariable	
+l50pel	fleetPELpredatorPELsuitabilityforanchmodelvariable	
+;
+; Listing of the likelihood components used in the current Gadget run
+;
+; Component	Type	Weight
+aldist.ecocadiz	3	1.04734
+aldist.pelago	3	3.45662
+ldist.alkseine	3	1894.3
+ldist.ecocadiz.noage	3	0.335458
+ldist.pelago.noage	3	0.237812
+ldist.seine	3	395.726
+ecocadiz.survey	1	0.179662
+pelagonumber.survey	1	0.100918
+understocking	2	1e+08
+bounds	8	0.5
+;
+; Listing of the output from the likelihood components for the current Gadget run
+;
+0	        30   0.117591 3.12896e-06    3.27767    39.6377 1.42395e-06 1.05263e-06 1.04403e-06   0.911286    5.53127    4.12012        0.5 1.24439e-06    12.6738   0.164472 1.00004e-06 1.00003e-06 1.00002e-06    4.61943    54.4168   0.876145    135.048    10.2373    1.32388 1.10535e-14    232.934  0.0244064    625.977    0.21034    124.177 1.74111e-16    90.8179  0.0045089     163.61 8.6315e-14        143   0.371362    256.051   0.578278    146.556  0.0287169    267.702   0.319151    225.778   0.130144    78.7202  0.0147049    482.657   0.309212    185.141  0.0458458    189.767    0.11325     200.08    0.12762     132.42   0.302545    333.747   0.476227     304.96  0.0879051    98.7008  0.0634751    209.327  0.0534297     61.648   0.975724     78.358 2.31494e-15    252.204    0.57508    135.307   0.248622    384.398   0.610391    177.144   0.476429          4   0.564922   0.217274   0.406771   0.603948   0.371816   0.839025   0.481015     0.1705          1   0.285936   0.600148   0.531241   0.630142   0.381565   0.301521   0.925563  0.0935083   0.105733   0.492651   0.185658   0.652115   0.505465   0.268522   0.640766   0.269837  0.0446639   0.503253    246.268  0.0174073   0.661615    144.032  0.0956205  0.0966458    2.63228  0.0384685   0.136931 1.86123e-16  0.0600261  0.0661919   0.124768  0.0144283  0.0407717  0.0576775  0.0781227  0.0043506   0.136201   0.094964    0.05079  0.0437919  0.0439179 0.00181435  0.0285241   0.107657 0.00849977  0.0621788    0.38334  0.0280487  0.0121852  0.0129422  0.0737608  0.0848315   0.193441    97.8928   0.987271   0.199586  0.0880817    172.092   0.499102 0.00206817  0.0802059    181.663  0.0829966   0.830082   0.245357     297.29   0.591956 5.05558e-14   0.193594    288.149   0.499145 4.04017e-14    0.13252    131.102   0.519607   0.350314   0.410783   0.782203    9.07394    10.2917    1.47954     12.394   0.222337         20 		  0.2268   0.2817    3.397   0.4473    1.082    6.389      5.8    10.49 1.622e-11        0 		   8967.22107483038
