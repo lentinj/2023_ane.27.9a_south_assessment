@@ -1,0 +1,89 @@
+\begin{thebibliography}{8}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Misc
+\bibitem[{Begley(2004)}]{begley_gadget_2004}
+\bibinfo{author}{Begley, J.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Gadget {User} {Guide}}.
+\newblock \URLprefix \url{http://www.hafro.is/gadget/files/userguide.pdf}.
+%Type = Article
+\bibitem[{Bellido et~al.(2000)Bellido, Pierce, Romero and Millan}]{Bellido2000}
+\bibinfo{author}{Bellido, J.M.}, \bibinfo{author}{Pierce, G.J.},
+  \bibinfo{author}{Romero, J.L.}, \bibinfo{author}{Millan, M.},
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Use of frequency analysis methods to estimate growth
+  of anchovy ( \textit{{E}ngraulis encrasicolus L.} 1758) in the gulf of cádiz
+  ({SW} spain)}.
+\newblock \bibinfo{journal}{Fisheries Research} \bibinfo{volume}{48},
+  \bibinfo{pages}{107–115}.
+%Type = Article
+\bibitem[{Elvarsson et~al.(2014)Elvarsson, Taylor, Trenkel, Kupca and
+  Stefansson}]{elvarsson_bootstrap_2014}
+\bibinfo{author}{Elvarsson, B.}, \bibinfo{author}{Taylor, L.},
+  \bibinfo{author}{Trenkel, V.}, \bibinfo{author}{Kupca, V.},
+  \bibinfo{author}{Stefansson, G.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{A bootstrap method for estimating bias and variance
+  in statistical fisheries modelling frameworks using highly disparate
+  datasets}.
+\newblock \bibinfo{journal}{African Journal of Marine Science}
+  \bibinfo{volume}{36}, \bibinfo{pages}{99--110}.
+\newblock \URLprefix
+  \url{http://www.tandfonline.com/doi/abs/10.2989/1814232X.2014.897253},
+  \DOIprefix\doi{10.2989/1814232X.2014.897253}.
+%Type = Article
+\bibitem[{Gislason et~al.(2010)Gislason, Daan, Rice and
+  Pope}]{gislason2010size}
+\bibinfo{author}{Gislason, H.}, \bibinfo{author}{Daan, N.},
+  \bibinfo{author}{Rice, J.C.}, \bibinfo{author}{Pope, J.G.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Size, growth, temperature and the natural mortality
+  of marine fish}.
+\newblock \bibinfo{journal}{Fish and Fisheries} \bibinfo{volume}{11},
+  \bibinfo{pages}{149--158}.
+%Type = Manual
+\bibitem[{Lentin(2014)}]{mfdb_2014}
+\bibinfo{author}{Lentin, J.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{mfdb: MareFrame DB Querying Library}.
+\newblock \bibinfo{note}{R package version 3.2-0}.
+%Type = Article
+\bibitem[{Stefansson(2003)}]{stefansson_issues_2003}
+\bibinfo{author}{Stefansson, G.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Issues in {Multispecies} {Models}}.
+\newblock \bibinfo{journal}{Natural Resource Modeling} \bibinfo{volume}{16},
+  \bibinfo{pages}{415--437}.
+\newblock \URLprefix
+  \url{http://onlinelibrary.wiley.com/doi/10.1111/j.1939-7445.2003.tb00121.x/abstract},
+  \DOIprefix\doi{10.1111/j.1939-7445.2003.tb00121.x}.
+%Type = Article
+\bibitem[{Stefánsson(1998)}]{stefansson_comparing_1998}
+\bibinfo{author}{Stefánsson, G.}, \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{Comparing different information sources in a
+  multispecies context}.
+\newblock \bibinfo{journal}{Fishery stock assessment models. Alaska Sea Grant
+  College Program. AK-SG-98-01} , \bibinfo{pages}{741--758}\URLprefix
+  \url{http://mdgs.un.org/unsd/envaccounting/ceea/archive/Fish/Iceland.PDF}.
+%Type = Article
+\bibitem[{Taylor et~al.(2007)Taylor, Begley, Kupca and
+  Stefansson}]{taylor_simple_2007}
+\bibinfo{author}{Taylor, L.}, \bibinfo{author}{Begley, J.},
+  \bibinfo{author}{Kupca, V.}, \bibinfo{author}{Stefansson, G.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{A simple implementation of the statistical modelling
+  framework {Gadget} for cod in {Icelandic} waters}.
+\newblock \bibinfo{journal}{African Journal of Marine Science}
+  \bibinfo{volume}{29}, \bibinfo{pages}{223--245}.
+\newblock \URLprefix
+  \url{http://www.tandfonline.com/doi/abs/10.2989/AJMS.2007.29.2.7.190},
+  \DOIprefix\doi{10.2989/AJMS.2007.29.2.7.190}.
+
+\end{thebibliography}

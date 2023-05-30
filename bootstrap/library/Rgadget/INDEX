@@ -1,0 +1,96 @@
+Rgadget                 Rgadget
+adjustconsumption       Adjust for overconsumption
+age.length.key          Age length key
+aldist                  Age length dist
+as.data.frame.gadget.sim
+                        as.data.frame.gadget.sim
+callGadget              Call GADGET
+callParamin             Call paramin
+catch.in.kilos          Catch in Kilos
+distr                   Length distribution
+eat                     Eat
+firststep               The first timestep
+fix_headers             Fix data headers in Gadget input files
+gadget-growth-class     Gadget growth
+gadget.fit              Gadget fit
+gadget.forward          Gadget forward
+gadget.iterative        Iterative reweighting for Gadget models
+gadget.options          Gagdet options
+gadget.phasing          Gadget Phasing
+gadget.retro            Analytical retrospective
+gadget.sensitivity      Gadget sensitivity
+gadget.simulate         Rgadget
+gadget.skeleton         Gadget skeleton
+gadget.variant.dir      Write the changes to the model into a model
+                        variant directory
+gadget.ypr              Gadget Yield per Recruit
+gadget_dir_write,list,gadget-main-method
+                        Write gadget main
+gadget_discard          Discard named component
+gadget_discard.gadgetfleet
+                        this function removes named fleet components
+gadget_discard.gadgetlikelihood
+                        this function removes named likelihood
+                        components
+gadget_filetypes        Recognised GADGET file types and their quirks
+gadget_update           Update gadget components
+gadget_update.gadgetfleet
+                        Update gadget fleet components in a fleet file
+gadget_update.gadgetlikelihood
+                        Update gadget likelihood components in a
+                        likelihood file
+gadget_update.gadgetstock
+                        Update comonents of a gadgetstock object
+gadget_update.gadgettime
+                        Update gadget time components in a time file
+gadgetdata              Construct a data-only gadget file
+gadgetfile              Construct a new gadgetfile S3 object
+gadgetfleet             Create a gadgetfleet object
+gadgetlikelihood        Create a gadgetlikelihood object
+gadgetstock             Create a gadgetstock object
+gadgettime              Create a gadgettime object
+growthprob              Update length
+init_guess              Initial parameter guess
+ldist                   Length distributions
+length.at.age           Length at age
+lengthDist              Length Dist
+make.gadget.printfile   Make gadget printfile
+migrate                 Migrate
+parse.gadget.formulae   Parse a GADGET formulae string
+plot.Rgadget            Plot Rgadget
+plot.gadget.fit         plot gadget fit
+plot.gadget.options     Plot gadget options
+plot.gadget.sens        Plot likelihood sensitivity
+pred_suit               Write suitability line for a predator
+print.gadgetfile        Print given gadgetfile to stdout
+read.gadget.file        Read gadget input file, return gadgetfile S3
+                        class representing file
+read.gadget.lik.out     Read gadget lik.out
+read.gadget.likelihood
+                        Old style gadget file input and output (mostly
+                        deprecated)
+read.gadget.model       read gadget main
+read.gadget.optinfo     Gadget optimiser settings
+read.gadget.parameters
+                        Gadget parameters
+read.gadget.printfile   Read gadget printfile
+read.gadget.results     Gadget results
+read.gadget.wgts        gadget.fit helper functions
+read.printfiles         Read gadget printfiles
+recruits                Recruitment
+sub.gadget.formulae     Replace variables in formulae
+suitability             Prey suitability
+summary.gadget.options
+                        Summary of gadget.options
+survey.index            Survey indices
+survey.indexlen         Survey length index
+surveydist_suit         Write suitability line for the
+                        surveydistribution likelihood component
+to.gadget.formulae      Turn R expression into GADGET formulae string
+toDataFrame             toDataFrame
+vonB                    Von Bertalanffy
+von_B_formula           von B formula
+write.gadget.file       Write gadgetfile to disk, including any
+                        dependant files, and update the mainfile
+write.gadget.printfile
+                        Write Gadget printfile

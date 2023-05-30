@@ -1,0 +1,33 @@
+Package: Rgadget
+Type: Package
+Title: R package for Gadget models
+Version: 0.5
+Date: 2016-27-
+Author@R: c(person("Bjarki Thor", "Elvarsson",
+        email="bjarki.elvarsson@hafogvatn.is",role = c("aut", "cre")),
+        person("Jamie", "Lentin",
+        email="lentinj@shuttlethread.com",role = c("cre"))),
+Maintainer: Bjarki Thor Elvarsson <bjarki.elvarsson@hafogvatn.is>
+Description: Companion R package for Gadget (Globally applicable area disagregated ecosystem
+          toolbox)
+Depends: R (>= 3.3.0), tidyverse
+Imports: plyr, reshape2, parallel, lubridate, stringi, stringr, grid,
+        purrr, broom
+Suggests: unittest (>= 1.2), knitr, rmarkdown
+License: GPL
+LazyLoad: yes
+LazyData: true
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
+ByteCompile: TRUE
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: rgadget
+RemoteUsername: hafro
+RemoteRef: 40ff4d6
+RemoteSha: 40ff4d6c9472c366cb77d294506505687c90af77
+GithubRepo: rgadget
+GithubUsername: hafro
+GithubRef: 40ff4d6
+GithubSHA1: 40ff4d6c9472c366cb77d294506505687c90af77
+Built: R 3.6.3; ; 2023-05-30 08:43:02 UTC; unix
