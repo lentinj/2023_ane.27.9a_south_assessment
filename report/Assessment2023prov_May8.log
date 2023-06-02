@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.16)  30 MAY 2023 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.16)  2 JUN 2023 01:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -897,12 +897,12 @@ LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <10> not available
  [6] [7] [8]
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1070.
+(pdftex.def)                using `viewport' instead on input line 1071.
 
-<./likelihood.pdf, id=243, 597.23125pt x 844.15375pt>
+<./likelihood.pdf, id=249, 597.23125pt x 844.15375pt>
 File: ./likelihood.pdf Graphic file (type pdf)
  <use ./likelihood.pdf>
-Package pdftex.def Info: ./likelihood.pdf used on input line 1070.
+Package pdftex.def Info: ./likelihood.pdf used on input line 1071.
 (pdftex.def)             Requested size: 390.25948pt x 551.61871pt.
 
 
@@ -910,12 +910,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1082.
+(pdftex.def)                using `viewport' instead on input line 1083.
 
-<./lendist.pdf, id=244, 597.23125pt x 699.61375pt>
+<./lendist.pdf, id=250, 597.23125pt x 699.61375pt>
 File: ./lendist.pdf Graphic file (type pdf)
  <use ./lendist.pdf>
-Package pdftex.def Info: ./lendist.pdf used on input line 1082.
+Package pdftex.def Info: ./lendist.pdf used on input line 1083.
 (pdftex.def)             Requested size: 390.25948pt x 457.16794pt.
 
 
@@ -923,12 +923,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1090.
+(pdftex.def)                using `viewport' instead on input line 1091.
 
-<./ecodist.pdf, id=245, 597.23125pt x 289.08pt>
+<./ecodist.pdf, id=251, 597.23125pt x 289.08pt>
 File: ./ecodist.pdf Graphic file (type pdf)
  <use ./ecodist.pdf>
-Package pdftex.def Info: ./ecodist.pdf used on input line 1090.
+Package pdftex.def Info: ./ecodist.pdf used on input line 1091.
 (pdftex.def)             Requested size: 390.25948pt x 457.16794pt.
 
 
@@ -936,21 +936,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1098.
+(pdftex.def)                using `viewport' instead on input line 1099.
 
-<./peldist.pdf, id=246, 597.23125pt x 361.35pt>
+<./peldist.pdf, id=252, 597.23125pt x 361.35pt>
 File: ./peldist.pdf Graphic file (type pdf)
  <use ./peldist.pdf>
-Package pdftex.def Info: ./peldist.pdf used on input line 1098.
+Package pdftex.def Info: ./peldist.pdf used on input line 1099.
 (pdftex.def)             Requested size: 390.25948pt x 457.16794pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./resildist.pdf, id=247, 597.23125pt x 597.23125pt>
+<./resildist.pdf, id=253, 597.23125pt x 597.23125pt>
 File: ./resildist.pdf Graphic file (type pdf)
  <use ./resildist.pdf>
-Package pdftex.def Info: ./resildist.pdf used on input line 1117.
+Package pdftex.def Info: ./resildist.pdf used on input line 1118.
 (pdftex.def)             Requested size: 390.25948pt x 390.26436pt.
 
 
@@ -958,48 +958,48 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1132.
+(pdftex.def)                using `viewport' instead on input line 1133.
 
-<./agedist.pdf, id=248, 597.23125pt x 699.61375pt>
+<./agedist.pdf, id=254, 597.23125pt x 699.61375pt>
 File: ./agedist.pdf Graphic file (type pdf)
  <use ./agedist.pdf>
-Package pdftex.def Info: ./agedist.pdf used on input line 1132.
+Package pdftex.def Info: ./agedist.pdf used on input line 1133.
 (pdftex.def)             Requested size: 390.25948pt x 457.16794pt.
 
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1140.
+(pdftex.def)                using `viewport' instead on input line 1141.
 
-<./ecoagedist.pdf, id=249, 597.23125pt x 289.08pt>
+<./ecoagedist.pdf, id=255, 597.23125pt x 289.08pt>
 File: ./ecoagedist.pdf Graphic file (type pdf)
  <use ./ecoagedist.pdf>
-Package pdftex.def Info: ./ecoagedist.pdf used on input line 1140.
+Package pdftex.def Info: ./ecoagedist.pdf used on input line 1141.
 (pdftex.def)             Requested size: 390.25948pt x 188.90152pt.
 
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1158.
+(pdftex.def)                using `viewport' instead on input line 1159.
 
-<./pelagedist.pdf, id=250, 597.23125pt x 289.08pt>
+<./pelagedist.pdf, id=256, 597.23125pt x 289.08pt>
 File: ./pelagedist.pdf Graphic file (type pdf)
  <use ./pelagedist.pdf>
-Package pdftex.def Info: ./pelagedist.pdf used on input line 1158.
+Package pdftex.def Info: ./pelagedist.pdf used on input line 1159.
 (pdftex.def)             Requested size: 390.25948pt x 236.1269pt.
 
-<./resialdist.pdf, id=251, 597.23125pt x 597.23125pt>
+<./resialdist.pdf, id=257, 597.23125pt x 597.23125pt>
 File: ./resialdist.pdf Graphic file (type pdf)
  <use ./resialdist.pdf>
-Package pdftex.def Info: ./resialdist.pdf used on input line 1199.
+Package pdftex.def Info: ./resialdist.pdf used on input line 1200.
 (pdftex.def)             Requested size: 390.25948pt x 390.26436pt.
 
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1211.
+(pdftex.def)                using `viewport' instead on input line 1212.
 
-<./surveyfit.pdf, id=252, 669.50125pt x 216.81pt>
+<./surveyfit.pdf, id=258, 669.50125pt x 216.81pt>
 File: ./surveyfit.pdf Graphic file (type pdf)
  <use ./surveyfit.pdf>
-Package pdftex.def Info: ./surveyfit.pdf used on input line 1211.
+Package pdftex.def Info: ./surveyfit.pdf used on input line 1212.
 (pdftex.def)             Requested size: 390.25948pt x 252.75752pt.
 
 
@@ -1010,18 +1010,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ist.pdf> <./pelagedist.pdf>] [19 <./resialdist.pdf>] [20 <./surveyfit.pdf>]
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1243.
+(pdftex.def)                using `viewport' instead on input line 1244.
 
-<./catchability.pdf, id=376, 597.23125pt x 289.08pt>
+<./catchability.pdf, id=384, 597.23125pt x 289.08pt>
 File: ./catchability.pdf Graphic file (type pdf)
  <use ./catchability.pdf>
-Package pdftex.def Info: ./catchability.pdf used on input line 1243.
+Package pdftex.def Info: ./catchability.pdf used on input line 1244.
 (pdftex.def)             Requested size: 390.25948pt x 188.90152pt.
 
-<./cohortevol.pdf, id=378, 597.23125pt x 597.23125pt>
+<./cohortevol.pdf, id=386, 597.23125pt x 597.23125pt>
 File: ./cohortevol.pdf Graphic file (type pdf)
  <use ./cohortevol.pdf>
-Package pdftex.def Info: ./cohortevol.pdf used on input line 1254.
+Package pdftex.def Info: ./cohortevol.pdf used on input line 1255.
 (pdftex.def)             Requested size: 390.25948pt x 390.26436pt.
 
 
@@ -1029,12 +1029,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1265.
+(pdftex.def)                using `viewport' instead on input line 1266.
 
-<./suitability.pdf, id=380, 669.50125pt x 433.62pt>
+<./suitability.pdf, id=388, 669.50125pt x 433.62pt>
 File: ./suitability.pdf Graphic file (type pdf)
  <use ./suitability.pdf>
-Package pdftex.def Info: ./suitability.pdf used on input line 1265.
+Package pdftex.def Info: ./suitability.pdf used on input line 1266.
 (pdftex.def)             Requested size: 390.25948pt x 252.75752pt.
 
 [21
@@ -1045,12 +1045,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1279.
+(pdftex.def)                using `viewport' instead on input line 1280.
 
-<./ICESplots.pdf, id=396, 519.9425pt x 524.96124pt>
+<./ICESplots.pdf, id=404, 519.9425pt x 524.96124pt>
 File: ./ICESplots.pdf Graphic file (type pdf)
  <use ./ICESplots.pdf>
-Package pdftex.def Info: ./ICESplots.pdf used on input line 1279.
+Package pdftex.def Info: ./ICESplots.pdf used on input line 1280.
 (pdftex.def)             Requested size: 390.25948pt x 394.02531pt.
 
 
@@ -1058,23 +1058,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1286.
+(pdftex.def)                using `viewport' instead on input line 1287.
 
-<./biomassts.pdf, id=397, 664.4825pt x 452.69125pt>
+<./biomassts.pdf, id=405, 664.4825pt x 452.69125pt>
 File: ./biomassts.pdf Graphic file (type pdf)
  <use ./biomassts.pdf>
-Package pdftex.def Info: ./biomassts.pdf used on input line 1286.
+Package pdftex.def Info: ./biomassts.pdf used on input line 1287.
 (pdftex.def)             Requested size: 390.25948pt x 265.87044pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [22 <./cohortevol.pdf>]
-<./ICESplots_modelcomp.pdf, id=411, 722.7pt x 578.16pt>
+<./ICESplots_modelcomp.pdf, id=419, 722.7pt x 578.16pt>
 File: ./ICESplots_modelcomp.pdf Graphic file (type pdf)
 
 <use ./ICESplots_modelcomp.pdf>
-Package pdftex.def Info: ./ICESplots_modelcomp.pdf used on input line 1298.
+Package pdftex.def Info: ./ICESplots_modelcomp.pdf used on input line 1299.
 (pdftex.def)             Requested size: 390.25948pt x 312.21057pt.
 
 
@@ -1082,47 +1082,46 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 1348.
+(pdftex.def)                using `viewport' instead on input line 1347.
 
-<./SSBt_1rect.pdf, id=414, 597.23125pt x 289.08pt>
+<./SSBt_1rect.pdf, id=422, 597.23125pt x 289.08pt>
 File: ./SSBt_1rect.pdf Graphic file (type pdf)
  <use ./SSBt_1rect.pdf>
-Package pdftex.def Info: ./SSBt_1rect.pdf used on input line 1348.
+Package pdftex.def Info: ./SSBt_1rect.pdf used on input line 1347.
 (pdftex.def)             Requested size: 390.25948pt x 188.90152pt.
 
-[23 <./suitability.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24 <./ICESplots.pdf>] [25 <./biomassts.pdf>] (./Assessment2023prov_May8.bbl
-[26 <./ICESplots_modelcomp.pdf>]
+[23 <./suitability.pdf>] [24 <./ICESplots.pdf>] [25 <./biomassts.pdf>] [26 <./I
+CESplots_modelcomp.pdf>] (./Assessment2023prov_May8.bbl
 Underfull \hbox (badness 1014) in paragraph at lines 60--68
 []$\T1/aett/m/n/10 http : / / onlinelibrary . wiley . com / doi / 10 . 1111 / j
  . 1939-[]7445 . 2003 . tb00121 . x / abstract$[]\T1/aer/m/n/10 , doi:[]$\T1/ae
 tt/m/n/10 10 . 1111 /
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2016.
- [27 <./SSBt_1rect.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2016.
+[27 <./SSBt_1rect.pdf>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2019.
+ [28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2019.
  (./Assessment2023prov_May8.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2016.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2016.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2019.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2019.
 
 Package rerunfilecheck Info: File `Assessment2023prov_May8.out' has not changed
 .
-(rerunfilecheck)             Checksum: E641FFDD8A4F80C7B56DE55B5BB0C28B;1514.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2016.
+(rerunfilecheck)             Checksum: DDE9189B03E4544320D5241641914C33;1536.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2019.
  ) 
 Here is how much of TeX's memory you used:
- 8251 strings out of 494881
- 113480 string characters out of 6179536
- 211574 words of memory out of 5000000
- 11237 multiletter control sequences out of 15000+600000
+ 8256 strings out of 494881
+ 113547 string characters out of 6179536
+ 212574 words of memory out of 5000000
+ 11239 multiletter control sequences out of 15000+600000
  46219 words of font info for 100 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 35i,12n,34p,1817b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,34p,1817b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/marga/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/te
@@ -1149,9 +1148,9 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Assessment2023prov_May8.pdf (27 pages, 732396 bytes).
+Output written on Assessment2023prov_May8.pdf (28 pages, 738083 bytes).
 PDF statistics:
- 589 PDF objects out of 1000 (max. 8388607)
- 107 named destinations out of 1000 (max. 500000)
- 250 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 603 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

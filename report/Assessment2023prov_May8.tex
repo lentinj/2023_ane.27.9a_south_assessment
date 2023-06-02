@@ -278,23 +278,23 @@ $n$ & Maximum number of length classes that an individual is supposed to grow $n
 
 \textit{Estimated} \\
 
-$l_\infty$  &   Asympthotic length, $l_\infty$=18.0071  \\
+$l_\infty$  &   Asympthotic length, $l_\infty$=29.1744  \\
 
-\it $k$       &   Annual growth rate, $k$ = 0.0951726    \\
+\it $k$       &   Annual growth rate, $k$ = 0.0831751    \\
 
-$\beta$ & Beta-binomial parameter, $\beta$ = 4999.98 \\
+$\beta$ & Beta-binomial parameter, $\beta$ = 5000 \\
 
-$\nu_{a}$ & Age factor, $\nu_{0} = 120000, \nu_{1} = 24400,$\\
-& $\nu_{2} = 84100, \nu_{3} = 6.08e-07$ \\
+$\nu_{a}$ & Age factor, $\nu_{0} = 120000, \nu_{1} = 118000,$\\
+& $\nu_{2} = 0.0601, \nu_{3} = 1.25e-07$ \\
 
-$\mu$ & Recruitment mean length, $\mu$ = 10.6996 \\
+$\mu$ & Recruitment mean length, $\mu$ = 9.86671 \\
 
-$\sigma_t$ & Recruitment length standard deviation by quarter, $\sigma_2$ = 3.10561,  $\sigma_3$ = 1.58895, $\sigma_4$ = 2.85318 \\
+$\sigma_t$ & Recruitment length standard deviation by quarter, $\sigma_2$ = 2.98305,  $\sigma_3$ = 1.67904, $\sigma_4$ = 4 \\
 
 $l_{50,T}$ & Length with a 50\% probability of predation during period T,\\
-& $l_{50,1}^{seine}$ = 20, $l_{50,2}^{seine}$ = 13.5, $l_{50,3}^{ECO}$ = 13.2,  $l_{50,3}^{PEL}$ = 20 \\
+& $l_{50,1}^{seine}$ = 10.6, $l_{50,2}^{seine}$ = 10.9, $l_{50,3}^{ECO}$ = 12.8,  $l_{50,3}^{PEL}$ = 14.3 \\
 
-$\alpha_{T}$ & Shape of function, $\alpha_{1}^{seine}$ = 0.106, $\alpha_{2}^{seine}$ = 0.316, $\alpha_{3}^{ECO}$ = 1.16,    $\alpha_{3}^{PEL}$ = 0.246\\
+$\alpha_{T}$ & Shape of function, $\alpha_{1}^{seine}$ = 0.407, $\alpha_{2}^{seine}$ = 0.865, $\alpha_{3}^{ECO}$ = 1.41,    $\alpha_{3}^{PEL}$ = 0.459\\
 
 \textbf{Observed Data}        \\
 
@@ -938,6 +938,7 @@ algorithms can be found in \href{https://github.com/mmrinconh/recovery-results-2
 \section{Remarkable Model Assumptions (in bold the terms associated to the more recent assumptions)}\label{Remark}
 \begin{itemize}
 \item Due to lack of information of length distributions and Age-length keys for commercial catches in the first and second quarter of 2020, for this year assessment, the length distribution of those quarters in year 2020 was approximated using the joint distribution of 2018 and 2019. For the Age-length key the one for the PELAGO 2020 survey was used.
+\item Due to discrepancies on mean lenght and weight at age in PELAGO survey for 2023 a crossvalidation for age composition was required. This crossvalidation reveals some missestimations in the otolith reading suggesting that more analysis is needed to agreed on the definitive age composition. For this reason age distribution of PELAGO survey in 2023 was removed from the model.
 \item Due to technical problems there are no data available for ECOCADIZ survey in 2021 and 2022.
 \item The model was implemented quarterly from 1989 to the second quarter of \textbf{2023}. 
 \item All commercial fleets where grouped into only one from 1989 to \textbf{2023} second quarter: The Spanish purse-seine. The Spanish purse-seine which represents more than a 90 \% of all the catches from 2001 to 2016 and more than a 80 \% from 1989 to 2000. It is also the only fleet with a lenght distribution available. For the first two quarters of year \textbf{2023}, provisional catches estimations of Spanish (until May 18th) purse-seine fleet were used and catches for June were estimated as the \textbf{39\%} of January to May catches based on historical records from 2009 to \textbf{2022}. There were not any catches for Portuguese purse-seine in these two quarters. 
@@ -1289,9 +1290,9 @@ Figure \ref{ICESplot} presents model annual estimates for biomass, abundance (re
  \label{biomassts}
 \end{figure}
 
-\subsection{Comparison with last year estimated time series and sensitivity analysis regarding missing information on the model used corresponding to the length distribution of ECOCADIZ survey in year 2020}
+\subsection{Comparison with the last two years estimated time series}
 
-A comparison with last year estimated time series, and also with those estimated by a model implementation with length distribution for ECOCADIZ survey in 2020 (that was missing in the last year model) is presented in Figure \ref{modelcomp}. The pink line represents last year estimated time series, the green line, the estimated by the same model but including the ECOCADIZ length distribution in 2020 and the blue line, the estimated by the model used this year (the one described in this document).  It was observed that the estimated biomass for some of the last years is smaller when including the length distribution missing (green line) but population trend remains very similar. It is also important to remark that the number of iterations for the optimization process in the first model was 2000000, while in the others was just 1000000.
+A comparison with the last two years estimated time series is presented in Figure \ref{modelcomp}. The pink line represents the current year estimated time series (the one estimated by the model described in this document), the green line, the estimated in 2022 and the blue line, the estimated in 2021. Trends are consistent even considering that each year the model updates the last values with the new information available. %It was observed that the estimated biomass for some of the last years is smaller when including the length distribution missing (green line) but population trend remains very similar. It is also important to remark that the number of iterations for the optimization process in the first model was 2000000, while in the others was just 1000000.
 
 \begin{figure}[h!]
  \centering
@@ -1300,11 +1301,9 @@ A comparison with last year estimated time series, and also with those estimated
  \caption{Comparison of estimates from different model implementations.1. Model used last year (pink), 2. Model used last year but including the ECOCADIZ length distribution in 2020 (green), 3. Model described in this document which is the reference for the advice provided in 2022 (blue): Annual model estimates for relative abundance of individuals with more than one year of age, relative fishing mortality, recruitment and catches (in numbers). Measures were summarized at the end of June each year, assuming that a year starts in July and ends in June of the next year. It is also important to remark that the number of iterations for the optimization process in the first model was 2000000, while in the others was just 1000000.}
  \label{modelcomp}
 \end{figure}
-
-
 % \section{Catch advice for July 2018 to June 2019}
 % 
-% The adviced catches for next year according to the formula decided in WKPELA 2018 (ICES, 2018) would be: $$C_{y+1}=C_{y}\frac{B_{y}}{\overline{B_{y-1}+B_{y-2}}}=\frac{2190}{(5600000+2320)/2}=828$$, where $B$ represents the estimated abundance by the model as shown in Figure \ref{biomassts} and $C_{y}$ the sum of landings and discards from July of year $y-1$ to June of year $y$.
+% The adviced catches for next year according to the formula decided in WKPELA 2018 (ICES, 2018) would be: $$C_{y+1}=C_{y}\frac{B_{y}}{\overline{B_{y-1}+B_{y-2}}}=\frac{1450}{(4390000+1800)/2}=2520$$, where $B$ represents the estimated abundance by the model as shown in Figure \ref{biomassts} and $C_{y}$ the sum of landings and discards from July of year $y-1$ to June of year $y$.
 
 %3443 capturas algarve y españa 2018 2383.25045 seún Fernando
 %para 2017 catches segundo semestre 1224.3816 más discards 122.483
@@ -1318,29 +1317,29 @@ A comparison with last year estimated time series, and also with those estimated
 % \section{Catch advice for July 2019 to June 2020}
 % 
 % 
-% The ratio between the last year biomass estimate and the mean of the two previous years is: $$\frac{B_{y}}{\overline{B_{y-1}+B_{y-2}}}=\frac{4880}{(2190+2320)/2}=3.96$$ for  $B$ representing the estimated abundance by the model as shown in Figure \ref{biomassts}. According to Uriarte et al. (2018) presented in WKLIFEVIII and in accordance with the procedure adopted for Anchovy 9.a. West, it was decided by the group to not apply the rule specified in the Stock annex for 2019 advice, instead, it was decided that adviced catches for the next year would be calculated as follows:  $$C_{y+1}=\hat{C}_{y}\frac{B_{y}}{({B_{y-1}+B_{y-2}})/2}$$ where  $\hat{C}_{y}$ is the value of adviced catches in 2018. Then the adviced catches  (in tonnes) for the next year (July 2019 to June 2020) would be: $$C_{y+1}=4476*\frac{4880}{(2190+2320)/2}  =828.$$
+% The ratio between the last year biomass estimate and the mean of the two previous years is: $$\frac{B_{y}}{\overline{B_{y-1}+B_{y-2}}}=\frac{3300}{(1450+1800)/2}=3.61$$ for  $B$ representing the estimated abundance by the model as shown in Figure \ref{biomassts}. According to Uriarte et al. (2018) presented in WKLIFEVIII and in accordance with the procedure adopted for Anchovy 9.a. West, it was decided by the group to not apply the rule specified in the Stock annex for 2019 advice, instead, it was decided that adviced catches for the next year would be calculated as follows:  $$C_{y+1}=\hat{C}_{y}\frac{B_{y}}{({B_{y-1}+B_{y-2}})/2}$$ where  $\hat{C}_{y}$ is the value of adviced catches in 2018. Then the adviced catches  (in tonnes) for the next year (July 2019 to June 2020) would be: $$C_{y+1}=4476*\frac{3300}{(1450+1800)/2}  =2520.$$
 %2020 advice
 % \section{Catch advice for July 2022 to June 2023}
 % 
 % 
-% The ratio between the last year biomass estimate and the mean of the two previous years is: $$\frac{B_{y}}{\overline{B_{y-1}+B_{y-2}}}=\frac{5590}{(5569+3510)/2}=0.4891$$ for  $B$ representing the estimated abundance by the model as shown in Figure \ref{biomassts}. According to the report of WKLIFEVX (ICES,2021), if this ratio is above 1.8, the advice would be equal to the latest advice mutiplied by 1.8, and by a biomass safe guard as follows:  $$C_{y+1}=\hat{C}_{y}*\min{1.8,\frac{B_{y}}{({B_{y-1}+B_{y-2}})/2}}*\frac{B_{y}}{I_{trigger}}$$ where  $\hat{C}_{y}$ is the value of adviced catches in the previous year. Then the adviced catches (in tonnes) for the next year (July 2022 to June 2023) would be: $$C_{y+1}=1694*0.489*1.7=828.48.$$  This procedure modification has been implemented since 2019 and it is not specified in the Stock annex.
-%\frac{5570}{(4880+2190)/2}  =828.$$  This procedure was not specified in the Stock annex for 2020 advice.
+% The ratio between the last year biomass estimate and the mean of the two previous years is: $$\frac{B_{y}}{\overline{B_{y-1}+B_{y-2}}}=\frac{2590}{(3952+3332)/2}=1.486$$ for  $B$ representing the estimated abundance by the model as shown in Figure \ref{biomassts}. According to the report of WKLIFEVX (ICES,2021), if this ratio is above 1.8, the advice would be equal to the latest advice mutiplied by 1.8, and by a biomass safe guard as follows:  $$C_{y+1}=\hat{C}_{y}*\min{1.8,\frac{B_{y}}{({B_{y-1}+B_{y-2}})/2}}*\frac{B_{y}}{I_{trigger}}$$ where  $\hat{C}_{y}$ is the value of adviced catches in the previous year. Then the adviced catches (in tonnes) for the next year (July 2022 to June 2023) would be: $$C_{y+1}=1694*1.49*3.59=2517.3.$$  This procedure modification has been implemented since 2019 and it is not specified in the Stock annex.
+%\frac{3950}{(3300+1450)/2}  =2520.$$  This procedure was not specified in the Stock annex for 2020 advice.
 
 
 %for the next year would be:  $$C_{y+1}=\hat{C}_{y}\frac{B_{y}}{({B_{y-1}+B_{y-2}})/2}$$ where  $\hat{C}_{y}$ is the value of adviced catches in 2019. Then the adviced catches  
  
 
 
-%=6720$$,  where $\hat{C}_{y}$ is the recommended quota for year $y.$ 
+%=6120$$,  where $\hat{C}_{y}$ is the recommended quota for year $y.$ 
 
 %This ratio is higher than 1.2, then, according to the Stock annex and following the formula decided in WKPELA 2018 (ICES, 2018), the adviced catches  (in tonnes) for the next year would be: $$C_{y+1}=1.2\hat{C}_{y}=2030$$,  where $\hat{C}_{y}$ is the recommended quota for year $y.$ 
-%%%%%%%%%For other cases $$C_{y+1}=\hat{C}_{y}\frac{B_{y}}{\overline{B_{y-1}+B_{y-2}}}=1690*\frac{4880}{(2190+2320)/2}=828$$
+%%%%%%%%%For other cases $$C_{y+1}=\hat{C}_{y}\frac{B_{y}}{\overline{B_{y-1}+B_{y-2}}}=1690*\frac{3300}{(1450+1800)/2}=2520$$
 %where $B$ represents the estimated abundance by the model as shown in Figure \ref{biomassts}
 \section{Reference points}
 
 The methodology applied was the same decided in WKPELA 2018 (page 286 of WKPELA 2018 report (ICES, 2018)) following ICES guidelines for calculation of reference points for category 1 and 2 stocks and the report of the workshop to review the ICES advisory framework for short lived species ICES WKMSYREF5 2017 (ICES, 2017).
 
-According to the above ICES guidelines and the S-R plot characteristics (Figure \ref{SSBt_1rect}), this stock component can be classified as a “stock type 5” (i.e. stocks showing no evidence of impaired recruitment or with no clear relation between stock and recruitment (no apparent $S-R$ signal)). According to this classification, $B_{lim}$ estimation is possible according to the standard method and it is assumed to be equal to $Bloss$ ($B_{lim}=B_{loss}$). For \textbf{2023} the value of $B_{loss}$ for the 9a South anchovy corresponds to the estimated $SSB$ in \textbf{2010} (1309.08 t),  hence $B_{lim}$ is set at 1309.08 t and the relative $B_{lim}$ (divided by the mean value of $B_1+$) results equal to 0.307. Note that due to some inconsistencies in the maturity ogives used in WKPELA2018, age 1+ individuals ($B_1+$) are assumed as mature i.e. $B_1+$ class is equivalent to Stock Spawning Biomass (SSB) (see subsection \ref{ARF} above).
+According to the above ICES guidelines and the S-R plot characteristics (Figure \ref{SSBt_1rect}), this stock component can be classified as a “stock type 5” (i.e. stocks showing no evidence of impaired recruitment or with no clear relation between stock and recruitment (no apparent $S-R$ signal)). According to this classification, $B_{lim}$ estimation is possible according to the standard method and it is assumed to be equal to $Bloss$ ($B_{lim}=B_{loss}$). For \textbf{2023} the value of $B_{loss}$ for the 9a South anchovy corresponds to the estimated $SSB$ in \textbf{2010} (1226.13 t),  hence $B_{lim}$ is set at 1226.13 t and the relative $B_{lim}$ (divided by the mean value of $B_1+$) results equal to 0.286. Note that due to some inconsistencies in the maturity ogives used in WKPELA2018, age 1+ individuals ($B_1+$) are assumed as mature i.e. $B_1+$ class is equivalent to Stock Spawning Biomass (SSB) (see subsection \ref{ARF} above).
 %Note that we are now using 2010 as reference for $Bloss$ instead of 2010 as was done during WKPELA 2018, this is because we found some inconsistencies in the maturity ogives used, and we now assume age 1+ individuals ($B_1+$) as mature (see subsection \ref{ARF} above)
 %está en tons 
 \begin{figure}[h!]
@@ -1352,12 +1351,16 @@ According to the above ICES guidelines and the S-R plot characteristics (Figure 
 \end{figure}
 
 ICES recommends to calculate $B_{pa}$ as follows: $$B_{pa} = e^{(1.645\sigma)} B_{lim},$$
-where  $\sigma$  is the estimated standard deviation of $ln(SSB)$ in the last year of the assessment, accounting for the uncertainty in $SSB$ for the terminal year.  If $\sigma$ is unknown and for short living species, as it is in our case, it can be assumed that $\sigma = 0.30$ (see page 34 of ICES WKMSYREF5 2017 report (ICES, 2017)), then $B_{pa} = e^{(1.645\sigma)}B_{lim}=1.64B_{lim}$. According to this $B_{pa}$ is set at 2146.8912 t.
-% 1.64 can be used as a default for $e^{(1.645\sigma)}$, which corresponds to assume $\sigma = 0.30$ in the (see page 34 of ICES WKMSYREF5 report (ICES, 2017e)) . According to this procedure $Bpa = 1.64Blim$ and $Bpa$ is set at 2.1484 t. 
+where  $\sigma$  is the estimated standard deviation of $ln(SSB)$ in the last year of the assessment, accounting for the uncertainty in $SSB$ for the terminal year.  If $\sigma$ is unknown and for short living species, as it is in our case, it can be assumed that $\sigma = 0.30$ (see page 34 of ICES WKMSYREF5 2017 report (ICES, 2017)), then $B_{pa} = e^{(1.645\sigma)}B_{lim}=1.64B_{lim}$. According to this $B_{pa}$ is set at 2010.8532 t.
+% 1.64 can be used as a default for $e^{(1.645\sigma)}$, which corresponds to assume $\sigma = 0.30$ in the (see page 34 of ICES WKMSYREF5 report (ICES, 2017e)) . According to this procedure $Bpa = 1.64Blim$ and $Bpa$ is set at 2.0172 t. 
 \section{Catch advice for July 2023 to June 2024}
-The ratio between the last year biomass estimate and the mean of the two previous years is: $$\frac{B_{y}}{\overline{B_{y-1}+B_{y-2}}}=\frac{2230}{(3510+5594)/2}=0.4891$$ for  $B$ representing the estimated abundance by the model as shown in Figure \ref{biomassts}. According to the report of WKLIFEVX (ICES,2021), if this ratio is above 1.8, the advice would be equal to the latest advice mutiplied by 1.8, if not,  the latest advice would be multiplied by this ratio. In case the estimated abundance is below a biomass trigger, which in this case is $B_{lim}$, it is also multiplied by a biomass safe guard as follows:  $$C_{y+1}=\hat{C}_{y}*\min\left(1.8,\frac{B_{y}}{(B_{y-1}+B_{y-2})/2}\right)$$ where  $\hat{C}_{y}$ is the value of adviced catches in the previous year. Then the adviced catches (in tonnes) for the next year (July 2023 to June 2024) would be: $$C_{y+1}=1694*0.489=828.48.$$  This procedure modification has been implemented since this year and it is not specified in the Stock annex.
-
-
+\subsection{One over two harvest control rule}
+The ratio between the last year biomass estimate and the mean of the two previous years is: $$\frac{B_{y}}{\overline{B_{y-1}+B_{y-2}}}=\frac{4402}{(3332+2593)/2}=1.486$$ for  $B$ representing the estimated abundance by the model as shown in Figure \ref{biomassts}. According to the report of WKLIFEVX (ICES,2021), if this ratio is above 1.8, the advice would be equal to the latest advice mutiplied by 1.8, if not,  the latest advice would be multiplied by this ratio. In case the estimated abundance is below a biomass trigger, which in this case is $B_{lim}$, it is also multiplied by a biomass safe guard as follows:  $$C_{y+1}=\hat{C}_{y}*\min\left(1.8,\frac{B_{y}}{(B_{y-1}+B_{y-2})/2}\right)$$ where  $\hat{C}_{y}$ is the value of adviced catches in the previous year. Then the adviced catches (in tonnes) for the next year (July 2023 to June 2024) would be: $$C_{y+1}=1694*1.49=2517.3.$$  This procedure modification has been implemented since this year and it is not specified in the Stock annex.
+\subsection{Constant harvest rate rule}
+%Sufficient evidence was provided showing that a constant harvest rate of 0.5 is precautionary allowing for a higher catch in the short, medium and long term
+According to this rule, adviced catches (in tonnes) for the next year (July 2023 to June 2024) would be the product of the last year biomass estimate and a constant harvest rate. In this case a rate of 0.5 was considered like the most suitable rate for this stock, as follows:
+$$C_{y+1}=B_{y}*0.5=4402*0.5=2201.$$
+This procedure modification has been implemented since this year and it is not specified in the Stock annex.
 
 %  ICES
 % uses Bpa = 1.4 Blim for many of the longer-lived stocks (1.4 is an upward rounding of
@@ -1370,9 +1373,9 @@ The ratio between the last year biomass estimate and the mean of the two previou
 
 
 
-% Figure \ref{SSBt_1rect} presents a comparison between SSB and recruitment, assuming, as mentioned before, that all individuals with age 1 or higher ($B_1+$) are mature. According to that, $Blim$ is equal to 1.31 and relative $Blim$ (divided by the mean value of $B_1+$) equal to 0.307. There are no clear relationship between SSB and recruitment, then according to ICES guidelines for reference points this can be considered as a type 5 case, then $Blim=Bloss$ and $B_{PA}=1.4*Blim=$1.834
+% Figure \ref{SSBt_1rect} presents a comparison between SSB and recruitment, assuming, as mentioned before, that all individuals with age 1 or higher ($B_1+$) are mature. According to that, $Blim$ is equal to 1.23 and relative $Blim$ (divided by the mean value of $B_1+$) equal to 0.286. There are no clear relationship between SSB and recruitment, then according to ICES guidelines for reference points this can be considered as a type 5 case, then $Blim=Bloss$ and $B_{PA}=1.4*Blim=$1.722
 
-%SSB were calculated from estimated total biomass by age using a maturity ogive for the second quarter of each year. Maturity ogive for years 1994,1995 and 1997 weren't available and for those year we used the last year data available. According to that Blim is equal to 1.31 and relative Blim (divided by the man value of ) equal to 0.307
+%SSB were calculated from estimated total biomass by age using a maturity ogive for the second quarter of each year. Maturity ogive for years 1994,1995 and 1997 weren't available and for those year we used the last year data available. According to that Blim is equal to 1.23 and relative Blim (divided by the man value of ) equal to 0.286
 %Parameter estimates and model outputs for age and length distributions of catches and surveys can be found in the Appendix. 
 % Frequency distributions  match reasonably well with available data as could be seen in Figures \ref{like}, \ref{agedist} and \ref{lendist}. All the likelihood scores are below 1.5 except for the age distribution of the catches in year 1996, correspondingly there is also a lack of fit in length distribution for that year compared with the other years. According to Figure \ref{ICESplot}, 1996 was the first year with a good recruitment after a 4 years period of bad records. %This remarkable fluctuation could be seen also in the discharges time series (Figure \ref{Displot}), because in 1996 discharges also increased sharply after a severe drought in 1994 and 1995. %A connection between this stock collapse of the fishery in 1995 and the decreases of dam discharges was suggested previously in \citep{Ruiz06}. 
 
