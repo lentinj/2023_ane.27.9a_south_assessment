@@ -1427,7 +1427,7 @@ BIOMTOT$ALL<-BIOMTOT$TONPT+BIOMTOT$TONSP
  DISCARDS<-add_row(DISCARDS, newyear=2020, newyeardiscardsouth=121, year=2020)
  DISCARDS<-add_row(DISCARDS, newyear=2021, newyeardiscardsouth=132, year=2021)
  #sacado de Landings and Discards_9aN and 9a S_2014 on_2022.xlsx #corregidas también las del 2021
- DISCARDS<-add_row(DISCARDS, newyear=2022, newyeardiscardsouth=44,211, year=2021)
+ DISCARDS<-add_row(DISCARDS, newyear=2022, newyeardiscardsouth=44,211, year=2022)
  #sacado de Landings and Discards_9aN and 9a S_2014 on_2022.xlsx que a su vez se ha sacado de /home/marga/GADGET/DATOS/Taledas_allfleets_1988_2016/2022_ANE_discards_279as.xls (este me lo mandó Jorge por correo el 8 de mayo de 2023), semestres 1 y 2 de 2023 igual a 0 y los otros se suman de ahí, ojo que se actualiza la del año pasado también. Ferni me ha mandado otro y la cosa coincide
  ######EStán en management year me las ha pasado Ferni
 
