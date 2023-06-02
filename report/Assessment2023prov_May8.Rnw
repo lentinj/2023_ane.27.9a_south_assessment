@@ -2568,7 +2568,7 @@ A comparison with the last two years estimated time series is presented in Figur
  \centering
  \includegraphics{./ICESplots_modelcomp.pdf}
  % lendist.pdf: 667x841 pixel, 72dpi, 23.53x29.67 cm, bb=0 0 667 841
- \caption{Comparison of estimates from different model implementations.1. Model used last year (pink), 2. Model used last year but including the ECOCADIZ length distribution in 2020 (green), 3. Model described in this document which is the reference for the advice provided in 2022 (blue): Annual model estimates for relative abundance of individuals with more than one year of age, relative fishing mortality, recruitment and catches (in numbers). Measures were summarized at the end of June each year, assuming that a year starts in July and ends in June of the next year. It is also important to remark that the number of iterations for the optimization process in the first model was 2000000, while in the others was just 1000000.}
+ \caption{Comparison of estimates from different model implementations. Blue line corresponds to the current year estimated time series (the one estimated by the model described in this document), the green line, to the estimated in 2022 and the blue line, to the estimated in 2021. Measures were summarized at the end of June each year, assuming that a year starts in July and ends in June of the next year.}
  \label{modelcomp}
 \end{figure}
 % \section{Catch advice for July 2018 to June 2019}
