@@ -5,7 +5,7 @@ numberfleet	seine
 livesonareas	1
 multiplicative	1
 suitability	
-	anch function expsuitfuncl50   Initfiles/anchalpha.tvf  Initfiles/anchL50.tvf
+	anch function exponentiall50   Initfiles/anchalpha.tvf  Initfiles/anchL50.tvf
 amount	Data/fleet.seine.data
 ; 
 [fleetcomponent]
@@ -13,7 +13,7 @@ totalfleet	ECO
 livesonareas	1
 multiplicative	1
 suitability	
-	anch function expsuitfuncl50 #constanteco #l50eco
+	anch function exponentiall50 #constanteco #l50eco
 amount	Data/fleet.ECO.data
 ; 
 [fleetcomponent]
@@ -21,5 +21,5 @@ totalfleet	PEL
 livesonareas	1
 multiplicative	1
 suitability	
- anch function expsuitfuncl50 #constantpel #l50pel 
+ anch function exponentiall50 #constantpel #l50pel
 amount	Data/fleet.PEL.data
