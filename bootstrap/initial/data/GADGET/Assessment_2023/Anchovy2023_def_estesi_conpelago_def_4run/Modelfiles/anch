@@ -59,7 +59,7 @@ initialconditions
 minage            0
 maxage            3
 minlength        3 ; 10
-maxlength         20
+maxlength         22
 ;numberfile	Modelfiles/anch.agelengthweight
 normalcondfile    Initfiles/anch.init
 ;
@@ -79,7 +79,7 @@ doesmove          0
 ;
 doesrenew         1
 minlength         3  ; to include the first years 
-maxlength         15
+maxlength         22
 normalcondfile   Initfiles/anch.rec
 ;
 ; information about the spawning of the stock

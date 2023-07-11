@@ -1,4 +1,6 @@
-; <age>  <area>  <age factor>  <area factor>  <mean>  <stddev>  <relcond> los de ecorec 9.76 0.386, 13.6 0.531,15 0.57
+; los de ecorec 9.76 0.386, 13.6 0.531,15 0.57
+; -- data --
+; age	area	age.factor	area.factor	mean	stddev	condition
 0 	1	(* 60000 #init0 )	1	9.76	0.5	1
 1 	1	(* 60000  #init1 )	1	13.6	0.531	1
 2 	1	(* 60000  #init2 )	1	15.2	1	1

@@ -1,9 +1,10 @@
 ;
 ; Reference length-weight relationship for this anchovy model in kilograms =0.000003128958*A3^3.277667619 sacado de la RTP del tercer y cuarto trimestres desde el 2003 al 2017
-
-;Este ya no 0.0006738933*EXP(0.2322711146*C34) aunque resulta muy parecido
 ;
-;length weight
+; Este ya no 0.0006738933*EXP(0.2322711146*C34) aunque resulta muy parecido
+;
+; -- data --
+; length	weight
 3	0.0001146158
 3.5	0.0001899652
 4	0.0002942743
@@ -39,7 +40,3 @@
 19	0.0486103787
 19.5	0.0529303062
 20	0.0575100337
-
-
-
-

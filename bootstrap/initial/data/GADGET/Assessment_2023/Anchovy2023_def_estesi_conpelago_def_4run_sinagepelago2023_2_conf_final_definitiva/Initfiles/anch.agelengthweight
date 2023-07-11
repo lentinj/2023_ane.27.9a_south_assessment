@@ -1,4 +1,4 @@
-;area>	<age>	<length> <number> <weight>
+;area	age	length	number	weight
 1	1	10	28000000	0.0061101345
 1	1	10.5	28000000	0.0071755362
 1	1	11	28000000	0.0083639238

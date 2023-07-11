@@ -1,4 +1,5 @@
-; year	step area age num len sd len	cond
+; -- data --
+; year	step area age number mean stddev condition
 1979	3	1	0	(*	1000	#rec79)	#reclm	#sdreclm	1
 1980	3	1	0	(*	1000	#rec80)	#reclm	#sdreclm	1
 1981	3	1	0	(*	1000	#rec81)	#reclm	#sdreclm	1
